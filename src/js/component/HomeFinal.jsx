@@ -10,6 +10,7 @@ import { Footer } from "./Footer.jsx"; // Import Element with "export const"
 import { JumbotronButton } from "./JumbotronButton.jsx";
 import { Alert } from "./AlertFinal.jsx";
 import { Spinner } from "./Spinner.jsx";
+import { Card } from "./Card.jsx";
 
 //create your first component
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
 			<Alert />
 			<Spinner />
 			<h1 className="text-center mt-5">{'Intro React'}</h1>
+			<Card />
 			<JumbotronButton />
 			{/* <p>
 				<img src={rigoImage} />

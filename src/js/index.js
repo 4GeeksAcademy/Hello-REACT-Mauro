@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client"; // import ReactDOM
 
 import "../styles/index.css"; // Include your styles into the webpack bundle
 
-import HomeFinal from "./component/HomeFinal.jsx"; // Import your own components
+import HomeFinal from "./component/HomeFinal.jsx"; // Import your own components */
 
 
 //                  // donde ?                    // que ?
