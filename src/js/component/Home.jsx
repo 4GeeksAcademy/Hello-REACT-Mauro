@@ -1,14 +1,10 @@
-import React from "react"; // 1. Import React
+import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
-// 2. Create your first component; Use always PascalCase!
+//create your first component
 const Home = () => {
-	
-	// 3. Code JS
-	
-	// 4. Return One and Only ONE Component
 	return (
 		<div className="text-center">
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
@@ -27,5 +23,4 @@ const Home = () => {
 	);
 };
 
-// 5. Export
 export default Home;
