@@ -8,7 +8,7 @@ import NavBar from "./NavBar.jsx"; // Import Element with "export default"
 
 import { Footer } from "./Footer.jsx"; // Import Element with "export const"
 import { JumbotronButton } from "./JumbotronButton.jsx";
-import { Alert } from "./Alert.jsx";
+import { Alert } from "./AlertFinal.jsx";
 import { Spinner } from "./Spinner.jsx";
 
 //create your first component
