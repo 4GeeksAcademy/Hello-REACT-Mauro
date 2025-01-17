@@ -8,12 +8,16 @@ import NavBar from "./NavBar.jsx"; // Import Element with "export default"
 
 import { Footer } from "./Footer.jsx"; // Import Element with "export const"
 import { JumbotronButton } from "./JumbotronButton.jsx";
+import { Alert } from "./Alert.jsx";
+import { Spinner } from "./Spinner.jsx";
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="text-center">
 			<NavBar />
+			<Alert />
+			<Spinner />
 			<h1 className="text-center mt-5">{'Intro React'}</h1>
 			<JumbotronButton />
 			{/* <p>
