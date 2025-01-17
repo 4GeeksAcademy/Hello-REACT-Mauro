@@ -1,5 +1,6 @@
 // 1.
 import React from "react";
+import { BtnCallToAction } from "./ButtonCallToAction.jsx";
 
 // 2. Create component
 const NavBar = () => {
@@ -31,13 +32,13 @@ const NavBar = () => {
                             <ul className="dropdown-menu">
                                 <li><a className="dropdown-item" href="#">Action</a></li>
                                 <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><hr className="dropdown-divider"/></li>
+                                <li><hr className="dropdown-divider" /></li>
                                 <li><a className="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                        </li>                        
+                        </li>
                     </ul>
                     <form className="d-flex" role="search">
-                            <button className="btn btn-outline-success" type="submit">Search</button>
+                        <BtnCallToAction />
                     </form>
                 </div>
             </div>
